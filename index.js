@@ -31,6 +31,8 @@ app.use( express.static( publicPath ) );
 app.use( '/api/login', require('./routes/auth') );
 app.use( '/api/usuarios', require('./routes/usuarios') );
 app.use( '/api/mensajes', require('./routes/mensajes') );
+app.use( '/api/login/doctores', require('./routes/auth_doctores') );
+app.use( '/api/doctores', require('./routes/doctores') );
 
 
 
