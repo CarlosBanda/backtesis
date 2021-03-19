@@ -6,7 +6,7 @@ const dbConnection = async() => {
 
     try {
 
-        await mongoose.connect( 'mongodb://localhost:27017/tesis', {
+        await mongoose.connect( 'mongodb://localhost:27017/tesisM', {
             useNewUrlParser: true,
             useUnifiedTopology: true,
             useCreateIndex: true,
